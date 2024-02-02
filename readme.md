@@ -95,7 +95,7 @@ This is only Klipper firmware support. If you are Klipper beginner please check 
 
 7. When you see the word "successfully", it means the programming is successful.
 
-### 3.3
+
 
 1. 打开机器电源，等待CM68完全启动，大致需要30-90s。
 2. 按住M6上的BT0按钮不松开，按住RST按键2秒以上松开，等待3S，松开BT0按钮；
