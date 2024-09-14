@@ -65,7 +65,7 @@ After Research on the Internet i found that boot0 and reset need be connected to
 
 ### 2.4 SCH DXF STEP
 
-Get SCH, DXF, STEP files on github: [SCH](hardware/M36 HUB V1.1 SHC.pdf)  [DXF](hardware/M36 HUB V1.1 DXF.pdf)  [STEP](hardware/M36 HUB V1.1.pdf)
+Get SCH, DXF, STEP files on github: [SCH](hardware/M36%20HUB%20V1.1%20SCH.pdf) [DXF](hardware/M36%20HUB%20V1.1%20DXF.pdf)  [STEP](hardware/M36%20HUB%20V1.1.step)
 
 
 ## 3. Firmware Guide
