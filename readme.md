@@ -2,10 +2,6 @@
 
 ## 1. Introduction
 
-M36集线板是专门为使用36圆形步进电机（Nema14）而设计的，可以用在mini Stealthburner 或者其他使用36电机的打印头上。该板可以配合多种主板使用，尤其是我们的catalyst和BullAnt。配合专用连接线材也可适配任何其他使用klipper的系统。
-
-M36分为两个版本，主要是电机驱动芯片不一样，普通版本为TMC2209，与Catalyst主板配合使用；Lite版本为GC6609，与BullAnt主板配合使用。
-
 The M36 hub board is specially designed for use with 36 circular stepper motors (Nema14) and can be used on mini Stealthburner or other print heads using 36 motors. This board can be used with a variety of motherboards, especially our catalyst and BullAnt. With special connection cables, it can also be adapted to any other system using klipper.
 
 M36 is divided into two versions, mainly because of the difference in motor driver chips. The normal version is TMC2209, used with Catalyst motherboard; the Lite version is GC6609, used with BullAnt motherboard.
@@ -13,7 +9,7 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 ### 1.1 Feature
 
 - Based on STM32F072
-- USB interface or CAN（need addon board）
+- USB interface ~~or CAN（need addon board）~~
 - Onboard TMC2209 / GC6609 (Lite Version)
 - 3 x 4Pin(2pin/3pin compatible) controlled Fans (default VIN power supply, 5V optional)
 - 1x signal input / output interface (default 5V power supply, VIN optional , with level shift)
@@ -64,7 +60,7 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 2.3.3  With Catalyst V2
 
 2.3.4 With Spider and Raspberry Pi
-
+After Research on the Internet i found that boot0 and reset need be connected to 3.3v pin and GND pin 
  
 
 ### 2.4 SCH DXF STEP
