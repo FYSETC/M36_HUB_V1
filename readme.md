@@ -59,8 +59,8 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 
 2.3.3  With Catalyst V2
 
-2.3.4 With Spider and Raspberry Pi
-After Research on the Internet i found that boot0 and reset need be connected to 3.3v pin and GND pin 
+2.3.4 With Other Board and Raspberry Pi
+After Research on the Internet i found that boot0 and reset need be connected to 3.3v pin and GND pin.
  
 
 ### 2.4 SCH DXF STEP
