@@ -1,3 +1,5 @@
+## THIS IS THE INSTRUCTION FOR USING M36 BOARD FOR ANY BOAD
+
 ![M36_HUB_TOP](assets/M36_HUB_TOP.png)
 
 ## 1. Introduction
