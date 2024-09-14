@@ -29,7 +29,7 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 
 ### 2.1 Install
 
-5. 
+>Update later 
 
 ### 2.2 Connectors
 
