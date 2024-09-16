@@ -53,12 +53,16 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 ### 2.3 Wiring
 
 2.3.1 With Bullant
+> Have not tested yet
 
 2.3.2 With Catalyst V1
+> Have not tested yet
 
 2.3.3  With Catalyst V2
+> Have not tested yet
 
 2.3.4 With Other Board and Raspberry Pi
+
 After Research on the Internet i found that boot0 and reset need be connected to 3.3v pin and GND pin. As you doing this action, MCU will work as well as it can flash via DFU.
 
 You can desolder or crim a 3x2 female connector for exist wire.
