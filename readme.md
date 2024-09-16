@@ -63,9 +63,9 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 
 2.3.4 With Other Board and Raspberry Pi
 
-After Research on the Internet i found that boot0 and reset need be connected to 3.3v pin and GND pin. As you doing this action, MCU will work as well as it can flash via DFU.
+After Research on the Internet i found that boot0 need to be connected to 3.3v pin and reset need to be connected GND pin.
+[Source] (https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/issues/63)
 
-You can desolder or crim a 3x2 female connector for exist wire.
 
 Wires pinout
 
