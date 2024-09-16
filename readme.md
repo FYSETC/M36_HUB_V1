@@ -74,13 +74,11 @@ Connector pinout
 
 #### Pin out look like this
 
-| 3V3(Blue)   | DP(Green) | V+(Red)   |     |
-| GND(Yellow) | DM(White) | V-(Black) |     |
-![alt text](image.png)
+![alt text](assets/Connector%20Pinout.png)
 
 ##### PCB Pinout
 
-|V+(Red)|V-(Black)|3V3(Blue)|GND(Yellow)|DM(White)|DP(Green)|
+![alt text](assets/PCB%20Pinout.png)
 
 
 ### 2.4 SCH DXF STEP
