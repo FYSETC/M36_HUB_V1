@@ -25,6 +25,9 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 - Comes with terminal housing and wire crimping tabs
 - Onboard ADXL345
 
+### 1.2. Klipper Config
+  [Config](KlipperConfig/head.cfg)
+  
 ## 2. Hardware Guide
 
 ### 2.1 Install
