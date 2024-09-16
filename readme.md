@@ -27,7 +27,7 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 
 ### 1.2. Klipper Config
   [Config](KlipperConfig/head.cfg)
-  
+
 ## 2. Hardware Guide
 
 ### 2.1 Install
@@ -70,13 +70,17 @@ After Research on the Internet i found that boot0 need to be connected to 3.3v p
 [Source] (https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/issues/63)
 
 
-Wires pinout
+Connector pinout
 
-> Picture here
+#### Pin out look like this
 
-PCB Pinout
+| 3V3(Blue)   | DP(Green) | V+(Red)   |     |
+| GND(Yellow) | DM(White) | V-(Black) |     |
 
-> Picture here
+##### PCB Pinout
+
+|V+(Red)|V-(Black)|3V3(Blue)|GND(Yellow)|DM(White)|DP(Green)|
+
 
 ### 2.4 SCH DXF STEP
 
