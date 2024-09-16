@@ -50,9 +50,6 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 | RGB2           | SH1.0-3P                 | PB0, 1A MAX sigal line RGB port, 5V，for NeoPixel, WS2812<br/>安装R39=0-100R，可以将RGB1和RGB2串联起来，仅用PB13控制。<br/>Install R39=0-100R, you can connect RGB1 and RGB2 in series and only use PB13 to control them. |
 
 
-
-
-
 ### 2.3 Wiring
 
 2.3.1 With Bullant
