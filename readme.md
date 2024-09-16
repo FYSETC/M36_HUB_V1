@@ -74,9 +74,6 @@ PCB Pinout
 
 > Picture here
 
-
- 
-
 ### 2.4 SCH DXF STEP
 
 Get SCH, DXF, STEP files on github: [SCH](hardware/M36%20HUB%20V1.1%20SCH.pdf), [DXF](hardware/M36%20HUB%20V1.1%20DXF.pdf),  [STEP](hardware/M36%20HUB%20V1.1.step)
