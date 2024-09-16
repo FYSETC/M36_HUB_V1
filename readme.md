@@ -66,13 +66,10 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 
 2.3.4 With Other Board and Raspberry Pi
 
-After Research on the Internet i found that boot0 need to be connected to 3.3v pin and reset need to be connected GND pin.
-[Source] (https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/issues/63)
+Boot0 need to be connected to 3.3v pin and reset need to be connected GND pin.
 
 
-Connector pinout
-
-#### Pin out look like this
+#### Connector Pinout
 
 ![alt text](assets/Connector%20Pinout.png)
 
