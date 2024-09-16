@@ -75,7 +75,6 @@ Connector pinout
 #### Pin out look like this
 
 | 3V3(Blue)   | DP(Green) | V+(Red)   |     |
-
 | GND(Yellow) | DM(White) | V-(Black) |     |
 
 ##### PCB Pinout
