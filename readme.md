@@ -1,10 +1,8 @@
+## THIS IS THE INSTRUCTION FOR USING M36 BOARD FOR ANY BOAD
+
 ![M36_HUB_TOP](assets/M36_HUB_TOP.png)
 
 ## 1. Introduction
-
-M36集线板是专门为使用36圆形步进电机（Nema14）而设计的，可以用在mini Stealthburner 或者其他使用36电机的打印头上。该板可以配合多种主板使用，尤其是我们的catalyst和BullAnt。配合专用连接线材也可适配任何其他使用klipper的系统。
-
-M36分为两个版本，主要是电机驱动芯片不一样，普通版本为TMC2209，与Catalyst主板配合使用；Lite版本为GC6609，与BullAnt主板配合使用。
 
 The M36 hub board is specially designed for use with 36 circular stepper motors (Nema14) and can be used on mini Stealthburner or other print heads using 36 motors. This board can be used with a variety of motherboards, especially our catalyst and BullAnt. With special connection cables, it can also be adapted to any other system using klipper.
 
@@ -13,7 +11,7 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 ### 1.1 Feature
 
 - Based on STM32F072
-- USB interface or CAN（need addon board）
+- USB interface ~~or CAN（need addon board）~~
 - Onboard TMC2209 / GC6609 (Lite Version)
 - 3 x 4Pin(2pin/3pin compatible) controlled Fans (default VIN power supply, 5V optional)
 - 1x signal input / output interface (default 5V power supply, VIN optional , with level shift)
@@ -27,11 +25,14 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 - Comes with terminal housing and wire crimping tabs
 - Onboard ADXL345
 
+### 1.2. Klipper Config
+  [Config](KlipperConfig/head.cfg)
+
 ## 2. Hardware Guide
 
 ### 2.1 Install
 
-5. 
+>Update later 
 
 ### 2.2 Connectors
 
@@ -52,25 +53,34 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 | RGB2           | SH1.0-3P                 | PB0, 1A MAX sigal line RGB port, 5V，for NeoPixel, WS2812<br/>安装R39=0-100R，可以将RGB1和RGB2串联起来，仅用PB13控制。<br/>Install R39=0-100R, you can connect RGB1 and RGB2 in series and only use PB13 to control them. |
 
 
-
-
-
 ### 2.3 Wiring
 
 2.3.1 With Bullant
+> Have not tested yet
 
 2.3.2 With Catalyst V1
+> Have not tested yet
 
 2.3.3  With Catalyst V2
+> Have not tested yet
 
-2.3.4 With Spider and Raspberry Pi
+2.3.4 With Other Board and Raspberry Pi
 
- 
+Boot0 need to be connected to 3.3v pin and reset need to be connected GND pin.
+
+
+#### Connector Pinout
+
+![alt text](assets/Connector%20Pinout.png)
+
+##### PCB Pinout
+
+![alt text](assets/PCB%20Pinout.png)
+
 
 ### 2.4 SCH DXF STEP
 
-Get SCH, DXF, STEP files on github:
-
+Get SCH, DXF, STEP files on github: [SCH](hardware/M36%20HUB%20V1.1%20SCH.pdf), [DXF](hardware/M36%20HUB%20V1.1%20DXF.pdf),  [STEP](hardware/M36%20HUB%20V1.1.step)
 
 
 ## 3. Firmware Guide
@@ -95,45 +105,8 @@ This is only Klipper firmware support. If you are Klipper beginner please check 
 
 7. When you see the word "successfully", it means the programming is successful.
 
-
-
-1. 打开机器电源，等待CM68完全启动，大致需要30-90s。
-2. 按住M6上的BT0按钮不松开，按住RST按键2秒以上松开，等待3S，松开BT0按钮；
-3. 在SSH界面输入 ‘lsusb‘ 你应该能看到 DFU 设备出现；
-4. ‘cd klipper ’进入klipper目录
-5. ‘make menuconfig’ 进行固件配置，如下图：
-6. make flash FLASH_DEVICE=0483:df11 进行编译并烧录；
-7. 当看到successfully字样的时候表示烧录成功。
-
 ### 3.2 Config
 
  We put the Klipper configuration file in github,  you need to get the DEVICE ID by "ls /dev/serial/by-id", then replace the id in the config file.
 
 On Catalyst and Bull Ant motherboards, the USB path is used by default for connection, and an ID is no longer required. In theory, it can be used after updating the firmware and restarting.
-
-我们将Klipper的配置文件放在github中，需要通过“ls /dev/serial/by-id”获取DEVICE ID，然后替换配置文件中的id。
-
-在催化剂和公牛蚁主板上，默认使用USB路径来进行连接，不再需要ID。理论上，更新完固件，重启之后既可使用。
-
-
-
-
-
-## Buy
-
-[Taobao](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-23828897339.22.229c1613tHAtLW&id=690431280049)
-
-[Aliexpress](https://www.aliexpress.com/item/1005004880078163.html)
-
-[Official website](https://www.fysetc.com/products/fysetc-sb-can-tool-board-based-on-stm32f072-support-klipper-with-tmc2209-axl345-acceleration-sensor-for-3d-printer-parts?variant=42187842519215)
-
-## Contacts
-
-QQ: 1041794121
-
-Facebook grounp：https://www.facebook.com/groups/197476557529090
-
-Discord：https://discord.gg/Fb6FdND4
-
-email：support@fysetc.com
-
