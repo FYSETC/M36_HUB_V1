@@ -43,7 +43,7 @@ M36 is divided into two versions, mainly because of the difference in motor driv
 | INPUT          | 0.5mm 2x16 BTB connector | Max 24v 7A input, CAN_TX/USBPM=PA12, CAN_RX/USBDM=PA11       |
 | T0             | PH2.0-2P                 | PA0，ADC，4.7K pull-up to 3.3V                               |
 | T1             | PH2.0-2P                 | PA3，ADC，4.7K pull-up to 3.3V                               |
-| TB             | no connector             | PA2，ADC，4.7K pull-up to 3.3V, onboard 100K /3950 thermistor |
+| TB             | no connector             | PA2，ADC，10K pull-up to 3.3V, onboard 100K /3950 thermistor |
 | HEAT           | XH2.54-2P                | PA8，MAX 3A，PWM output，max power recommended: 24V/70W      |
 | FAN0           | PH2.0-2P                 | Enable: PB11, (4pin fan = enable, 2pin/3pin fan = PWM control pin)<br/>TACH: PB12, <br/>PWM: PB10, (only for 4pin fan)<br/>0.5A MAX PWM，for fan control (default VIN，5V selectable) |
 | FAN1           | PH2.0-4P                 | Enable: PB4, (4pin fan = enable, 2pin/3pin fan = PWM control pin)<br/>TACH: PB3, <br/>PWM: PA15, (only for 4pin fan)<br/>0.5A MAX PWM，for fan control (default VIN，5V selectable) |
